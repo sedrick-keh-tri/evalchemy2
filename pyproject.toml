@@ -160,7 +160,7 @@ eval = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["evalchemy", "database"]
+packages = ["eval", "database"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
