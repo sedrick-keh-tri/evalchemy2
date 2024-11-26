@@ -25,9 +25,10 @@ import lm_eval.models
 
 import os
 print(os.listdir())
+print(os.getenv['PYTHONPATH'])
 
 import sys
-sys.path.append("./eval")
+sys.path.append("./evalchemy")
 
 from eval.task import TaskManager as InstructTaskManager
 from eval.eval_tracker import DCEvaluationTracker
