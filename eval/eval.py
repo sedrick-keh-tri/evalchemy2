@@ -25,7 +25,7 @@ import lm_eval.models
 
 import os
 print(os.listdir())
-print(os.getenv['PYTHONPATH'])
+print(os.getenv('PYTHONPATH'))
 
 import sys
 sys.path.append("./evalchemy")
