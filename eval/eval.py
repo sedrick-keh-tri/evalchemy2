@@ -23,6 +23,12 @@ import lm_eval.api.registry
 import lm_eval.api.task
 import lm_eval.models
 
+import os
+print(os.listdir())
+
+import sys
+sys.path.append("./eval")
+
 from eval.task import TaskManager as InstructTaskManager
 from eval.eval_tracker import DCEvaluationTracker
 
